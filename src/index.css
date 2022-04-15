@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr&family=Montserrat:wght@500&family=Roboto&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#tituloPage{
+  color: #96E1FE;
+  
+}
+
+a{
+  text-decoration: none;
+  color: #1465AC;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/*==================================================*/
+    /* =============MENU DO TOPO=============== */
+/*==================================================*/
+.header{
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+ 
+  padding: 1.5em 4em;  
+}
+
+.list-nav{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  
+  width: 75%;
+  max-width: 800px;
+
+  font-family: 'Mitr', sans-serif;
+  font-size: 1em;
+  color: #1465AC;
+
+  list-style-type: none;
+}
+
+.list-nav > li{
+  padding: 15px 13px;
+  border-radius: 5px;
+ 
+}
+.list-nav > li:hover{
+  cursor: pointer;
+
+  background-color: white;
+
+  transition: 0.5s;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*==================================================*/
+   /* =============PARTE BEM-VINDOS=============== */
+/*==================================================*/
+.bemVindo{
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+
+  background-color: #E0F4FD;
+}
+
+.itensCentro{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  padding: 5em 0em;
+}
+
+
+.textInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-self: flex-start;
+
+  width: 40%;
+
+  margin-right: 4em;
+  margin-top: 5em;
+}
+
+.textInfo h1 {
+  font-family: 'Mitr';
+  font-size: 3.3em;
+
+  color: #15355C;
+}
+
+.textInfo span{
+  font-family: 'Mitr';
+  font-size: 1.5em;
+
+  color: #939CA3;
+}
+
+
+.imgBemVindo{
+  height: 65%;
+  background-color: white;
+  border-radius: 15px;
+  width: 32%;
+}
+
+.imgBemVindo img{
+  position: relative;
+  
+  width: 105%;
+  
+  top: -5em;
+  left: -7em;
+}
+
+
+/*==================================================*/
+   /* =============PARTE SOBRE-NOS=============== */
+/*==================================================*/
+
+.sobreNos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100%;
+
+  background: linear-gradient(180deg, #FFFFFF 70.5%, #E0F4FD 100%);
+}
+
+
+.imgSobreNos{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  width: 43%;
+  height: 50%;
+  
+  background: rgba(238, 235, 217, 0.83);
+  border-radius: 30px
+}
+
+.maquinasImg{
+  position: relative;
+  top: -6em;
+  width: 100%;
+}
+
+.edredonImg{
+  position: relative;
+  top: -14em;
+
+  width: 41%;
+}
+
+
+/*==================================================*/
+   /* =============PARTE SERVIÇOS=============== */
+/*==================================================*/
+
+.servicos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  width: 100%;
+
+  padding: 5em 5em 5em 5em;
+
+  background: #E1F4FD;
+}
+
+.textoServico h1{
+  font-family: 'Mitr';
+  font-size: 3.3em;
+
+  color: #15355C;
+}
+
+.textoServico span{
+  font-family: 'Mitr';
+  font-size: 1.5em;
+
+  color: #939CA3;
+}
+
+.servicosContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: 	center;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.descServico{
+  font-family: 'Mitr';
+  font-size: 20px;
+  
+  color: #15355C;
+}
+
+.servicosItens{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 14em;
+  height: 15em;
+  padding: 1em;
+  margin: 2em;
+
+  background: #FFFCFC;
+  border-radius: 40px;
+}
+/*==================================================*/
+   /* =============PARTE CONTATE-NOS=============== */
+/*==================================================*/
+
+.contatos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  padding: 5em;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.textoContato span{
+  font-family: 'Mitr';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 50px;
+  
+  color: #96E1FE;
+}
+.textoContato h1{
+  font-family: 'Mitr';
+  color: #15355C;
+  max-width: 40%;
+}
+.infoContato{  
+  font-family: 'Mitr';
+  font-weight: 700;
+  font-size: 1.2em;
+
+  color: #939CA3;
+}
+
+/*==================================================*/
+   /* =============PARTE ENVIAR MSG=============== */
+/*==================================================*/
+
+
+.mensagem{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  padding: 5em 0em;
+  background-color: #E1F4FD;
+}
+
+.containerMensagem{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  width: 100%;
+  padding: 5em;
+
+  background-color: #FFFFFF;
+
+}
+
+.containerMensagem span{
+  font-family: 'Mitr';
+  font-weight: 600;
+  font-size: 1.5em;
+
+  color: #96E1FE;
+
+}
+.containerMensagem button:hover{
+  transition: 0.5s;
+
+  cursor: pointer;
+  background-color: #E0F4FD;
+  color: #1465AC;
+} 
+
+.containerMensagem button{
+
+  padding: 1em 0em;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2em;
+
+  color: #FFFFFF;
+  background: #00AFEF;
+  border-radius: 10px;
+
+  border: solid 0px;
+}
+.inputs{
+  display: flex;
+  flex-direction: row;
+}
+.coluna1{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+
+  min-height: 100px;
+  width: 50%;
+
+  margin-right: 15px;
+}
+.inputData{
+  width: 100%;
+  height: 3em;
+  margin-bottom: 1.5em;
+}
+
+.textAreaMsg{
+  font-family: 'Mitr';
+  font-size: 20px;
+  color: #15355C;
+  width: 50%;
+}
+
+label{
+  font-family: 'Mitr';
+  font-size: 20px;
+  color: #15355C;
+}
+
+.textAreaMsg textarea{
+  width: 100%;
+  height: 80%;
+  resize: none
+}
+
+.copyright{
+  font-family: 'Mitr';
+  font-size: 20px;
+
+  margin-top: 2em;
+
+  color: #000000;
+}
+
+
+
+@media (max-width: 900px)
+{
+  .header{
+      flex-direction: column;
+      padding: 2em 0em;
+  }
+  .list-nav{
+    flex-direction: column;
+  }
+  .itensCentro{
+    flex-direction: column;    
+  }
+  .textInfo{
+    margin: 0px;
+    padding: 0px;
+    width: 99%;
+    text-align: center;
+  }
+  .textInfo h1{
+    font-size: 2em;
+  }
+  .itensCentro{
+    margin: 0px;
+    padding: 2em;
+      
+  }
+  .imgBemVindo{
+    width: auto;
+    height: auto;
+  }
+  .imgBemVindo img{
+    width: 100%;
+    top: 1em;
+    left: 0em;
+  }
+  .sobreNos{
+    height: none;
+  }
+  .imgSobreNos{
+    width: auto;
+    height: 33%;
+  }
+  .maquinasImg{
+    top: 0px;
+  }
+  .edredonImg{
+    top: -2em
+  }
+  .sobreNosCenter{
+    flex-direction: column-reverse;
+  }
+  .textoServico h1{
+    font-size: 2em;
+  }
+  .contatos{
+    padding: 2em;
+    height: none;
+  }
+  .textoContato{
+    text-align: center;
+  }
+  .textoContato h1{
+    max-width: none;
+  }
+  .infoContato{
+    font-size: 1em;
+  }
+  .inputs{
+    flex-direction: column;
+  }
+  .containerMensagem{
+    padding: 2em;
+  }
+  .coluna1{
+    min-height: none;
+    width: auto;
+    margin-right: 0px;
+  }
+  .textAreaMsg{
+    width: auto;
+  }
+  .textAreaMsg textArea{
+    height: 150px;
+  }
+}
