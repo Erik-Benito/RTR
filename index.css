@@ -100,10 +100,9 @@ html {
   justify-content: space-evenly;
   align-self: flex-start;
 
-  width: 40%;
+  width: 44%;
 
   margin-right: 4em;
-  margin-top: 5em;
 }
 
 .textInfo h1 {
@@ -219,6 +218,7 @@ html {
   justify-content: center;
   align-self: center;
   flex-wrap: wrap;
+  max-width: 1000px;
 }
 
 .descServico{
@@ -384,7 +384,9 @@ label{
   color: #000000;
 }
 
-
+.servicosItens img{
+  width: 60%;
+}
 
 @media (max-width: 900px)
 {
